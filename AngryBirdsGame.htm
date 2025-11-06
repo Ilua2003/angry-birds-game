@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Angry Birds</title>
+	<style>
+		html, body {
+			background-color: black;
+			height: 100%;
+			padding: 0;
+			margin: 0;
+			overflow: hidden;
+			touch-action: none;
+			-webkit-user-select: none;
+			-moz-user-select: none;
+			user-select: none;
+			-webkit-tap-highlight-color: transparent
+		}
+
+		#content {
+			position: fixed;
+			height: 100%;
+			width: 100%;
+			margin: 0;
+			padding: 0;
+			z-index: 99
+		}
+		/* Делаем загрузку невидимой */
+		#loading {
+			display: none !important;
+		}
+	</style>
+</head>
+<body>
+	<!-- Добавляем элемент загрузки но скрываем его -->
+	<div id="loading" style="display: none;"></div>
+	<div id="content" oncontextmenu="return false;"></div>
+	<script src="AngryBirdsGame.js"></script>
+</body>
+</html>
