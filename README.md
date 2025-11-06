@@ -2,11 +2,9 @@
 
 Angry Birds clone game in JavaScript.
 
-![alt screenshot](https://raw.githubusercontent.com/lrusso/AngryBirds/master/AngryBirds.png)
-
 ## Web:
 
-https://lrusso.github.io/AngryBirds/AngryBirds.htm
+[Ilua2003/angry-birds-game](https://github.com/Ilua2003/angry-birds-game)
 
 ## Disclaimer
 
