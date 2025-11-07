@@ -1,8 +1,20 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
 	<meta charset="UTF-8">
-	<title>Angry Birds</title>
+	<title>Angry Birds Clone</title>
+	<meta property="og:title" content="Angry Birds Clone"/>
+	<meta property="og:url" content="https://ilua2003.github.io/angry-birds-game/"/>
+	<meta property="og:description" content="Angry Birds clone game in JavaScript"/>
+	<meta property="og:image" content="AngryBirdsShare.png"/>
+	<meta property="og:type" content="website"/>
+	<meta property="og:site_name" content="Angry Birds Game"/>
+	<meta name="theme-color" content="#000000"/>
+	<meta name="mobile-web-app-capable" content="yes"/>
+	<meta name="apple-mobile-web-app-capable" content="yes"/>
+	<link rel="icon" sizes="16x16" type="image/png" href="AngryBirdsFavIcon_16x16.png"/>
+	<link rel="icon" sizes="192x192" type="image/png" href="AngryBirdsFavIcon_192x192.png"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, user-scalable=no"/>
 	<style>
 		html, body {
 			background-color: black;
@@ -25,15 +37,9 @@
 			padding: 0;
 			z-index: 99
 		}
-		/* Делаем загрузку невидимой */
-		#loading {
-			display: none !important;
-		}
 	</style>
 </head>
 <body>
-	<!-- Добавляем элемент загрузки но скрываем его -->
-	<div id="loading" style="display: none;"></div>
 	<div id="content" oncontextmenu="return false;"></div>
 	<script src="AngryBirdsGame.js"></script>
 </body>
